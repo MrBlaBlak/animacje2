@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+    background-color: antiquewhite;
+}
+.inner{
+    background-color: orange;
+    width:100px;
+    height: 100px;
+     
+}
+.outer{
+    
+    background-color: pink;
+    width: 50px;
+    height: 50px;
+    transform: translate(25px, 25px);
+    
+}
+.facebook{
+    border-radius: 50%;
+    background-color: blue;
+    display: inline-block;
+    border: 1px solid white;
+    
+    color: white;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 48px;
+    transition: all 0.5s linear 0.1s;
+    
+}
+a:hover{
+    color: blue;
+    background-color: white;
+}
+
+.grad1 {
+    height: 55px;
+    background: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet); /* For Fx 3.6 to 15 */
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); /* Standard syntax (must be last) */
+}
+ul {
+    list-style-type:none;
+}
+ul li::before{
+    content:"\f2c3";
+    font-family: FontAwesome;
+}
+input::placeholder{
+    color: red;
+}
+.link[href$="doc"], .link[href$=docx]{
+    color: red;
+}   
+html[lang="en"] q::before, html[lang="en"] q::after{
+    content:"*";
+}
+
+
+
+    
