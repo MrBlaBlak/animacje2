@@ -61,7 +61,33 @@ input::placeholder{
 html[lang="en"] q::before, html[lang="en"] q::after{
     content:"*";
 }
-
-
-
+footer{
+    position: fixed;
+    top:95%;
+    color:  antiquewhite;
+}
+img{
+    height:20vh;
+}
+img:hover{
+    height:30vh;
+}
+.hearth{
+    font-size: 48px;
+    font-family: Verdana; 
+}
+.fa-heart{
+    color: red;
+    animation-name: resize;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes resize{
+    50%{
+        font-size:30px;
+    }
+    100%{
+        font-size: 48px;
+    }
+}
     
